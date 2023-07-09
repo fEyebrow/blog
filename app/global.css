@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply hover:text-red-700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+aside code {
+  background: transparent !important;
+}
+
+/* inline code */
+.inline-code {
+  @apply bg-gray-100 rounded break-all;
+  padding: 0.2rem 0.4rem;
+  line-height: 1;
+  font-size: 0.8em;
+}
