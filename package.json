@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=development node -r './proxy.js' dev.js",
-    "prod": "NODE_ENV=production node -r './proxy.js' dev.js",
+    "dev": "node -r './proxy.js' dev.js",
+    "build": "next build",
+    "start": "next start",
     "prettier": "prettier . --write"
   },
   "devDependencies": {
